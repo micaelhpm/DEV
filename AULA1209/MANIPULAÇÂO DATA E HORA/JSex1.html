@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bauru</title>
+
+  <style>
+    body{text-align: center;}
+    img#lampada { width: 600px;  height: auto; }
+    body{background-color: antiquewhite;}
+
+  </style>
+</head>
+<body>
+
+    <div> <h1 align="center" > Micael Henrique </h1>
+        <output id="data" style="font-family: 'arial black', 'avant garde'; font-size: 24px;"></output>
+        </div>
+    <div id="data-hora"></div>
+    <p>Bauru 1000 grau</p> 
+    <script>
+    function atualizarDataHora() {
+      const agora = new Date();
+      const dataHoraElement = document.getElementById('data-hora');
+      dataHoraElement.textContent = `Data e hora atual: ${agora.toLocaleString()}`;
+    }
+    atualizarDataHora();  
+    setInterval(atualizarDataHora, 1000);
+
+  </script>
+
+
+<a onmouseover="mudar ('lampada', 'foxnotsafee.jpg')"
+onmouseout="mudar('lampada', 'foxsafe.png')">
+<img src="foxsafe.png" border="0" id="lampada">
+</a>
+
+<script type="text/javascript">
+function mudar (objeto, imagem) {
+   lampada.src = imagem;
+}
+ </script>
+</body>
+</html>

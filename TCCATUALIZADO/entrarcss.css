@@ -8,7 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #050801;
+    background: #222222;
     font-family: 'Raleway', sans-serif;
 
 }
@@ -27,10 +27,10 @@ button{
 button:hover{
     background:   #FFFACD;
     color: #050801;
-    box-shadow: 0 0 15px #FFFACD,
-                0 0 50px #FFFACD,
-                0 0 100px #FFFACD,
-                0 0 400px #FFFACD;
+    box-shadow: 0 0 5px #FFFACD,
+                0 0 10px #FFFACD,
+                0 0 20px #FFFACD,
+                0 0 80px #FFFACD;
     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
 
 }

@@ -17,8 +17,8 @@ body {
 }
 
 form {
-    width: 500px;
-    height: 550px;
+    width: 400px;
+    height: 450px;
     box-sizing: border-box;
     border-radius: 5mm;
     padding: 40px 30px;
@@ -27,6 +27,17 @@ form {
     background: #000; /* Changed to solid black */
     border: 0.5mm solid rgba(0, 0, 0, 0.65);
     position: relative;
+    
+}
+form:hover{
+    background:   #000;
+    color: #000;
+    box-shadow: 0 0 5px #FFFACD,
+                0 0 10px #FFFACD,
+                0 0 20px #FFFACD,
+                0 0 80px #FFFACD;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);  
+
 }
 .title {
     width: 100%;

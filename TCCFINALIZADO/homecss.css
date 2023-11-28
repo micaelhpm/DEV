@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    background: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #d5c17be1;
+    clip-path:circle(48% at bottom right)
+}
+.circle1{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4b494591;
+    clip-path:circle(100% at bottom right)
+}
+.circle2{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffc800f3;
+    clip-path:circle(38% at bottom right)
+}
+.circle3{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000003a;
+    clip-path:circle(50% at bottom right)
+}
+.circle4{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000003a;
+    clip-path:circle(110% at bottom right)
+}
+
+
+
+
+
+header {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+   position: absolute;
+    
+    left: 5%;       
+    height: 93%;
+    
+}
+.logof{
+    position: absolute;
+     
+     left: 5%;       
+     height: 93%;
+     
+ }
+ .logof1{
+    position: absolute;
+     
+     left: 25%;       
+     height: 10%;
+     
+ }
+header .navegation li{
+    
+    display: flex;
+    right: 20%;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 40px;
+    margin-left: 1460px;
+ 
+
+}
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text{
+
+color: #D5C27B;
+font-size: large;
+text-align: left;
+
+
+
+
+}
+.text1{
+
+    color: #D5C27B;
+    font-size:xx-large;
+    text-align: center;
+    margin-right: 850px;
+}
+button{
+
+    padding: 15px 25px;
+    background-color:#d5c27b;
+    color:  #050801;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    
+    
+}
+button:hover{
+    background:   #FFFACD;
+    color: #050801;
+    box-shadow: 0 0 5px #FFFACD,
+                0 0 10px #FFFACD,
+                0 0 20px #FFFACD,
+                0 0 80px #FFFACD;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+
+}
